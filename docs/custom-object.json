@@ -1,0 +1,73 @@
+[
+  {
+    "g(deviceId)": "__9853645de68641888284150364c6eb73",
+    "type": "meta",
+    "af(deviceProperties)": {
+      "Build": "43",
+      "Version": "3.0.1-stage",
+      "OS Version": "11",
+      "SDK Version": 40000,
+      "Make": "samsung",
+      "Model": "SM-M215F",
+      "Carrier": "JIO 4G",
+      "useIP": false,
+      "OS": "Android",
+      "wdt": 2.68,              //width
+      "hgt": 5.27,              //height
+      "dpi": 420,               //density
+      "lib": "Flutter",         //Library
+      "cc": "in"                //country code
+    },
+    "id": "TEST-79R-KR8-R95Z",  //clevertap account-id
+    "tk": "TEST-b23-2ca",       //token
+    "l_ts": 1620647408,         //last request time stamp (can keep this)
+    "f_ts": 1620205445,         // first req time stamp   (can keep this)
+    "ddnd": false,              //notification enabled or not
+    "rtl": [],                  //rendered target list
+    "rct": 0,                   //referrer click time
+    "ait": 0,                   //app install time
+    "frs": false,               //is first req in session?
+    "arp": {                    //additional req params(preference key value pairs)
+      "sv": 40000,
+      "dh": 645856151,
+      "wdt": 2,
+      "d_ts": 1620647392,
+      "hgt": 5,
+      "av": "3.0.1-stage",
+      "v": 1,
+      "e_ts": 0,
+      "j_n": "bm9jeQs=",
+      "i_n": "ZWhiewMC",
+      "r_ts": 1620647410,
+      "id": "79R-KR8-R95Z",
+      "k_n": "[ \"82326\" , \"52217\"]",
+      "j_s": "{ }"
+    },
+    "imp": 0,                 //
+    "tlc": []                 //
+  },
+  {
+    "evtName": "HOME_SCREEN_LAUNCH_2",
+    "evtData": {
+      "env": "Env.stage"
+    },
+    "s": 1620647392,    //session id --> start time in seconds
+    "pg": 1,            //activity count
+    "type": "event",
+    "ep": 1620647409,   //current event time(seconds)
+    "f": false,         //isFirst session
+    "lsl": 9,           //get last session length
+    "dsync": false      //
+  }
+]
+
+
+
+class CustomObject{
+    long int timestamp;
+    String deviceId;
+    Map<String, String> deviceProperties;
+    String profileId;
+    String eventName;
+    Map<String, String> eventProperties;
+};

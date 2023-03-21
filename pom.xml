@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>farm.nurture</groupId>
+    <artifactId>event-portal</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <caffeine.version>2.8.5</caffeine.version>
+        <java.version>8</java.version>
+        <os-maven-plugin.version>1.6.1</os-maven-plugin.version>
+        <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+        <io.grpc.version>1.34.1</io.grpc.version>
+        <nurture.farm.contracts.version>1.0.0</nurture.farm.contracts.version>
+        <infra.version>0.0.4</infra.version>
+        <nf.common.version>0.0.3</nf.common.version>
+        <guice.version>4.2.3</guice.version>
+        <lombok.version>1.18.20</lombok.version>
+        <temporal.version>1.0.5</temporal.version>
+    </properties>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>${caffeine.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.temporal/temporal-sdk -->
+        <dependency>
+            <groupId>io.temporal</groupId>
+            <artifactId>temporal-sdk</artifactId>
+            <version>${temporal.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>${guice.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture</groupId>
+            <artifactId>infra</artifactId>
+            <version>${infra.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture</groupId>
+            <artifactId>laminar</artifactId>
+            <version>0.0.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.11.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture</groupId>
+            <artifactId>nf-commons-kafka</artifactId>
+            <version>${nf.common.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.50.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>mb_grpc</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>mb_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>device_service_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>device_service_grpc</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>headers_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>errors_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>common_enums_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-netty-shaded</artifactId>
+            <version>${io.grpc.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>event_portal_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>event_portal_grpc</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-protobuf</artifactId>
+            <version>${io.grpc.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-stub</artifactId>
+            <version>${io.grpc.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>entities_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>time_slot_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>tags_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>event_reference_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture.core.contracts</groupId>
+            <artifactId>utils_proto</artifactId>
+            <version>${nurture.farm.contracts.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture</groupId>
+            <artifactId>nf-commons-kvstore</artifactId>
+            <version>${nf.common.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>farm.nurture</groupId>
+            <artifactId>nf-commons-util</artifactId>
+            <version>${nf.common.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>nurture-farm-s3-maven-release-repo</id>
+            <name>S3 Release Repository for Nurture.Farm</name>
+            <url>s3://nurture.farm.repo.mvn.com/release</url>
+        </repository>
+        <snapshotRepository>
+            <id>nurture-farm-s3-maven-snapshot-repo</id>
+            <name>S3 Snapshot Repository for Nurture.Farm</name>
+            <url>s3://nurture.farm.repo.mvn.com/snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>nurture-farm-s3-maven-release-repo</id>
+            <name>S3 Release Repository for Nurture.Farm</name>
+            <url>s3://nurture.farm.repo.mvn.com/release</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>nurture-farm-s3-maven-snapshot-repo</id>
+            <name>S3 Snapshot Repository for Nurture.Farm</name>
+            <url>s3://nurture.farm.repo.mvn.com/snapshot</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.6.2</version>
+            </extension>
+            <extension>
+                <groupId>com.github.ehsaniara</groupId>
+                <artifactId>maven-repository-aws-s3</artifactId>
+                <version>1.2.11</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <!-- Compiler plugin specify java version to be used here -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+
+            <!-- Maven jar plugin which build app jar file from source files and resources -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            **/config.properties
+                        </exclude>
+                        <exclude>**/config.properties</exclude>
+                    </excludes>
+                    <finalName>${project.name}-${project.version}</finalName>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>farm.nurture.captain.server.CaptainServer</mainClass>
+                            <classpathPrefix>dependency-jars/</classpathPrefix>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.1.2</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/dependency-jars/</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

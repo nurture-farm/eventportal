@@ -1,0 +1,223 @@
+[
+  [
+    {
+      "g": "__354c1b7875f74facbc05f3cbe2667e3e",
+      "type": "meta",
+      "af": {
+        "Build": "45",
+        "Version": "4.0.0-stage",
+        "OS Version": "9",
+        "SDK Version": 40000,
+        "Make": "Amazon",
+        "Model": "AFTSS",
+        "Carrier": "",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 9.01,
+        "hgt": 5,
+        "dpi": 320
+      },
+      "id": "TEST-79R-KR8-R95Z",
+      "tk": "TEST-b23-2ca",
+      "l_ts": 1620655236,
+      "f_ts": 1620396876,
+      "ddnd": true,
+      "rtl": [],
+      "rct": 0,
+      "ait": 0,
+      "frs": false,
+      "arp": {
+        "sv": 40000,
+        "dh": 0,
+        "wdt": 9,
+        "d_ts": 0,
+        "hgt": 5,
+        "av": "4.0.0-stage",
+        "v": 1,
+        "e_ts": 0,
+        "j_n": "Zw==",
+        "i_n": "ZWlnewMF",
+        "r_ts": 1620655236,
+        "id": "79R-KR8-R95Z",
+        "j_s": "{ }"
+      },
+      "imp": 0,
+      "tlc": []
+    },
+    {
+      "profile": {
+        "tz": "Asia/Calcutta"
+      },
+      "s": 1620655235,
+      "pg": 1,
+      "type": "profile",
+      "ep": 1620655235,
+      "f": false,
+      "lsl": -258219,
+      "dsync": true
+    }
+  ],
+  [
+    {
+      "g": "__g4fee9d2e634d4012b7803b239e4643da",
+      "type": "meta",
+      "af": {
+        "Build": "20",
+        "Version": "1.4.2",
+        "OS Version": "9",
+        "SDK Version": 30801,
+        "Make": "vivo",
+        "Model": " 1901",
+        "Carrier": "airtel",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 2.69,
+        "hgt": 5.25,
+        "dpi": 320,
+        "lib": "Flutter",
+        "cc": "in"
+      },
+      "id": "TEST-79R-KR8-R95Z",
+      "tk": "TEST-b23-2ca",
+      "l_ts": 1620493205,
+      "f_ts": 1606364690,
+      "ddnd": false,
+      "rtl": [],
+      "rct": 0,
+      "ait": 0,
+      "frs": false,
+      "imp": 0,
+      "tlc": []
+    },
+    {
+      "profile": {
+        "Carrier": "airtel",
+        "cc": "in",
+        "tz": "Asia/Kolkata"
+      },
+      "s": 1620493202,
+      "pg": 1,
+      "type": "profile",
+      "ep": 1620493202,
+      "f": false,
+      "lsl": 606,
+      "dsync": true
+    },
+    {
+      "profile": {
+        "Carrier": "airtel",
+        "cc": "in",
+        "tz": "Asia/Kolkata"
+      },
+      "s": 1620493202,
+      "pg": 1,
+      "type": "profile",
+      "ep": 1620493202,
+      "f": false,
+      "lsl": 606,
+      "dsync": true
+    },
+    {
+      "profile": {
+        "MSG-push": true,
+        "MSG-whatsapp": true,
+        "Phone": "+919483242982",
+        "EMPLOYEE_CODE": 32231,
+        "MSG-email": true,
+        "MSG-sms": true,
+        "Name": "Maruthi.",
+        "Carrier": "airtel",
+        "cc": "in",
+        "tz": "Asia/Kolkata"
+      },
+      "s": 1620493202,
+      "pg": 1,
+      "type": "profile",
+      "ep": 1620493203,
+      "f": false,
+      "lsl": 606,
+      "wzrk_error": {
+        "c": 512,
+        "d": "Object value wasn't a primitive (null) for profile field Identity"
+      },
+      "dsync": true
+    }
+  ],
+[
+  {
+    "g": "__gfe5b4322556148e2829e4ab246bbd5c2",
+    "type": "meta",
+    "af": {
+      "Build": "46",
+      "Version": "4.1.0-stage",
+      "OS Version": "9",
+      "SDK Version": 40000,
+      "Make": "asus",
+      "Model": "ASUS_X00TD",
+      "Carrier": "Jio 4G",
+      "useIP": false,
+      "OS": "Android",
+      "wdt": 2.68,
+      "hgt": 5.08,
+      "dpi": 408,
+      "lib": "Flutter",
+      "cc": "in"
+    },
+    "id": "TEST-79R-KR8-R95Z",
+    "tk": "TEST-b23-2ca",
+    "l_ts": 1622036443,
+    "f_ts": 1621840324,
+    "ddnd": false,
+    "rtl": [],
+    "rct": 0,
+    "ait": 0,
+    "frs": false,
+    "arp": {
+      "sv": 40000,
+      "dh": 758170458,
+      "wdt": 2,
+      "d_ts": 1621954281,
+      "hgt": 5,
+      "av": "4.1.0-stage",
+      "v": 1,
+      "e_ts": 0,
+      "j_n": "YmpieQ==",
+      "i_n": "YmpieQ==",
+      "r_ts": 1622036444,
+      "id": "79R-KR8-R95Z",
+      "k_n": "[ \"4740483\"]",
+      "j_s": "{ }"
+    },
+    "imp": 0,
+    "tlc": []
+  },
+  {
+    "profile": {
+      "MSG-push": true,
+      "MSG-whatsapp": true,
+      "Phone": "+911240124012",
+      "EMPLOYEE_LANGUAGE": "en-us",
+      "Identity": 4740483,
+      "USER_TYPE": "FARMER",
+      "EMPLOYEE_CODE": 10728,
+      "MSG-email": true,
+      "MSG-sms": true,
+      "Name": "Test",
+      "Carrier": "Jio 4G",
+      "cc": "in",
+      "tz": "Asia/Kolkata"
+    },
+    "s": 1622036214,
+    "pg": 1,
+    "type": "profile",
+    "ep": 1622036440,
+    "f": false,
+    "lsl": 83,
+    "wzrk_error": {
+      "c": 512,
+      "d": "Object value wasn't a primitive () for profile field EMPLOYEE_SERVER_ID"
+    },
+    "dsync": true
+  }
+]
+]

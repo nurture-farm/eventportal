@@ -1,0 +1,550 @@
+[
+  [
+    {
+      "g": "__g1f818ab74a8448cebf28c94cc19c685f",
+      "type": "meta",
+      "af": {
+        "Build": "45",
+        "Version": "4.0.0-stage",
+        "OS Version": "10",
+        "SDK Version": 40000,
+        "Make": "samsung",
+        "Model": "SM-J600GF",
+        "Carrier": "",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 2.44,
+        "hgt": 4.94,
+        "dpi": 320,
+        "lib": "Flutter",
+        "cc": "in"
+      },
+      "id": "TEST-79R-KR8-R95Z",
+      "tk": "TEST-b23-2ca",
+      "l_ts": 1620658510,
+      "f_ts": 1620658054,
+      "ddnd": false,
+      "rtl": [],
+      "rct": 0,
+      "ait": 0,
+      "frs": false,
+      "arp": {
+        "sv": 40000,
+        "dh": -1934115733,
+        "wdt": 2,
+        "d_ts": 1620658052,
+        "hgt": 4,
+        "av": "4.0.0-stage",
+        "v": 1,
+        "e_ts": 0,
+        "j_n": "YG9iewE=",
+        "i_n": "YG9iewE=",
+        "r_ts": 1620658512,
+        "id": "79R-KR8-R95Z",
+        "j_s": "{ }"
+      },
+      "imp": 0,
+      "tlc": []
+    },
+    {
+      "evtName": "ONBOARDING_CLICK_GET_OTP_BUTTON_2",
+      "evtData": {
+        "mobileNumber": "8309949130",
+        "env": "Env.stage"
+      },
+      "s": 1620658498,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620658517,
+      "f": false,
+      "lsl": 7,
+      "dsync": false
+    }
+  ],
+  [
+    {
+      "g": "__g1f818ab74a8448cebf28c94cc19c685f",
+      "type": "meta",
+      "af": {
+        "Build": "45",
+        "Version": "4.0.0-stage",
+        "OS Version": "10",
+        "SDK Version": 40000,
+        "Make": "samsung",
+        "Model": "SM-J600GF",
+        "Carrier": "",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 2.44,
+        "hgt": 4.94,
+        "dpi": 320,
+        "lib": "Flutter",
+        "cc": "in"
+      },
+      "id": "TEST-79R-KR8-R95Z",
+      "tk": "TEST-b23-2ca",
+      "l_ts": 1620658465,
+      "f_ts": 1620658054,
+      "ddnd": false,
+      "rtl": [],
+      "rct": 0,
+      "ait": 0,
+      "frs": false,
+      "arp": {
+        "sv": 40000,
+        "dh": -1934115733,
+        "wdt": 2,
+        "d_ts": 1620658052,
+        "hgt": 4,
+        "av": "4.0.0-stage",
+        "v": 1,
+        "e_ts": 0,
+        "j_n": "YG9iewE=",
+        "i_n": "YG9iewE=",
+        "r_ts": 1620658466,
+        "id": "79R-KR8-R95Z",
+        "j_s": "{ }"
+      },
+      "imp": 0,
+      "tlc": []
+    },
+    {
+      "evtName": "App Launched",
+      "evtData": {
+        "Build": "45",
+        "Version": "4.0.0-stage",
+        "OS Version": "10",
+        "SDK Version": 40000,
+        "Make": "samsung",
+        "Model": "SM-J600GF",
+        "Carrier": "",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 2.44,
+        "hgt": 4.94,
+        "dpi": 320,
+        "lib": "Flutter",
+        "cc": "in"
+      },
+      "s": 1620658498,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620658498,
+      "f": false,
+      "lsl": 7,
+      "pai": "nurture.farm.stage",
+      "dsync": true
+    },
+    {
+      "evtName": "wzrk_fetch",
+      "evtData": {
+        "t": 1
+      },
+      "s": 1620658498,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620658498,
+      "f": false,
+      "lsl": 7,
+      "dsync": false
+    },
+    {
+      "data": {
+        "action": "register",
+        "id": "cslRG07ASamTen_L8-RanJ:APA91bG0AAYISCYwsvss1akM_LlMDsfMLqG2PsmZOpgLMf_dwOPlbVoQnVBImSEu4HN5U5no7BJ370sfo9ZyB9asiPtSuPDUOnJW9_2yHK3AJdfuxaxkjIDBbjLnCCi79oabwvs-35Nr",
+        "type": "fcm"
+      },
+      "s": 1620658498,
+      "pg": 1,
+      "type": "data",
+      "ep": 1620658498,
+      "f": false,
+      "lsl": 7,
+      "dsync": false
+    },
+    {
+      "evtName": "ONBOARDING_LAUNCH_LANGUAGE_SCREEN_2",
+      "evtData": {
+        "langugeCode": "en-us",
+        "env": "Env.stage",
+        "languageName": "English"
+      },
+      "s": 1620658498,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620658502,
+      "f": false,
+      "lsl": 7,
+      "dsync": false
+    }
+  ],
+  [
+    {
+      "g": "__g1e6ee54b4464407689212776a77e3a05",
+      "type": "meta",
+      "af": {
+        "Build": "45",
+        "Version": "4.0.0-stage",
+        "OS Version": "8.1.0",
+        "SDK Version": 40000,
+        "GoogleAdID": "1e6ee54b4464407689212776a77e3a05",
+        "GoogleAdIDLimit": false,
+        "Make": "samsung",
+        "Model": "SM-J260G",
+        "Carrier": "",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 2.44,
+        "hgt": 4.01,
+        "dpi": 240,
+        "lib": "Flutter"
+      },
+      "id": "TEST-79R-KR8-R95Z",
+      "tk": "TEST-b23-2ca",
+      "l_ts": 1620657229,
+      "f_ts": 1620656999,
+      "ddnd": false,
+      "rtl": [],
+      "frs": false,
+      "arp": {
+        "sv": 40000,
+        "dh": 898339678,
+        "wdt": 2,
+        "d_ts": 1620656997,
+        "hgt": 4,
+        "av": "4.0.0-stage",
+        "v": 1,
+        "e_ts": 0,
+        "j_n": "ZmhnewIJ",
+        "i_n": "ZWtiewIE",
+        "r_ts": 1620657230,
+        "id": "79R-KR8-R95Z",
+        "j_s": "{ }"
+      },
+      "ref": {
+        "us": "google-play",
+        "um": "organic"
+      },
+      "imp": 0,
+      "tlc": []
+    },
+    {
+      "evtName": "HOME_SCREEN_LAUNCH_2",
+      "evtData": {
+        "env": "Env.stage"
+      },
+      "s": 1620656996,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620657229,
+      "f": true,
+      "lsl": 0,
+      "dsync": false
+    },
+    {
+      "evtName": "HOME_INITIAL_SYNC_SUCCESS_2",
+      "evtData": {
+        "env": "Env.stage"
+      },
+      "s": 1620656996,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620657229,
+      "f": true,
+      "lsl": 0,
+      "dsync": false
+    }
+  ],
+  [
+    {
+      "externalSource": clevertap
+      (0)"g"/ clevertapId: "__9853645de68641888284150364c6eb73", //figure out user id from redis //if eventtype  == profile, set id (g_id : (userid, userType = farmer))
+      "type": "meta",
+      "af": {  //app fields
+        "Build / versionCode": "43",    (1)
+        "Version / versionName": "3.0.1-stage", (2)
+        "OS Version / OSVersion": "11", (3)
+        "SDK Version": 40000,
+        "Make": "samsung",
+        "Model": "SM-M215F",
+        "Carrier": "JIO 4G",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 2.68,  //width
+        "hgt": 5.27, //height
+        "dpi": 420,  //density
+        "lib": "Flutter",
+        "cc": "in"  //country code
+      },
+      "id/ appName": "TEST-79R-KR8-R95Z", //clevertap account-id --> Map<id, AppName> (4)
+      "tk": "TEST-b23-2ca",     //token
+      "l_ts": 1620647408,       //last request time stamp
+      "f_ts": 1620205445,       // first req time stamp
+      "ddnd": false,            //notification enabled or not
+      "rtl": [],                //rendered target list
+      "rct": 0,                 //referrer click time
+      "ait": 0,                 //app install time
+      "frs": false,             //is first req in session?
+      "arp": {                  //additional req params(preference key value pairs)
+        "sv": 40000,
+        "dh": 645856151,
+        "wdt": 2,
+        "d_ts": 1620647392,
+        "hgt": 5,
+        "av": "3.0.1-stage",
+        "v": 1,
+        "e_ts": 0,
+        "j_n": "bm9jeQs=",
+        "i_n": "ZWhiewMC",
+        "r_ts": 1620647410,
+        "id": "79R-KR8-R95Z",
+        "k_n": "[ \"82326\" , \"52217\"]",
+        "j_s": "{ }"
+      },
+      "imp": 0,                 //
+      "tlc": []                 //
+    },
+    {
+      "evtName": "LIST_CARD_CTA_CLICK_2", //(5)
+      "evtData": {      //userId, type will also be here if not exist (Map<K,v> (6))
+        "cta": "/ok",
+        "module": "Offers",
+        "source": "list.details",
+        "id": "332",
+        "env": "Env.stage"
+      },
+      "s/ sessionId": 1620647392,         //(7)
+      "pg": 1,
+      "type": "event",
+      "ep/ timestamp": 1620647408, *1000ms //(8)
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    },
+    {
+      "evtName": "DEEP_LINK_HANDLE_LINK_2",
+      "evtData": {
+        "path": "/ok",
+        "link": "/ok",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647408,
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    },
+    {
+      "evtName": "LIST_CARD_CTA_CLICK_2",
+      "evtData": {
+        "cta": "/scan/",
+        "module": "Offers",
+        "source": "list",
+        "id": "337",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647409,
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    },
+    {
+      "evtName": "DEEP_LINK_HANDLE_LINK_2",
+      "evtData": {
+        "path": "/scan/",
+        "link": "/scan/",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647409,
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    },
+    {
+      "evtName": "PRODUCT_SCAN_LAUNCH_SCAN_SCREEN_2",
+      "evtData": {
+        "env": "Env.stage"
+      },
+      "s": 1620647392,        //session id --> start time in seconds
+      "pg": 1,                //activity count
+      "type": "event",
+      "ep": 1620647409,       //current event time(seconds)
+      "f": false,             //isFirst session
+      "lsl": 9,               //get last session length
+      "dsync": false          //
+    },
+    {
+      "evtName": "PRODUCT_SCAN_SCANNER_INITIALIZATION_2",
+      "evtData": {
+        "scanner": "ML_VISION",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647409,
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    },
+    {
+      "evtName": "PRODUCT_SCAN_ASK_CAMERA_PERMISSION_2",
+      "evtData": {
+        "scanner": "ML_VISION",
+        "source": "productScan",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647409,
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    },
+    {
+      "evtName": "PRODUCT_SCAN_ASK_CAMERA_PERMISSION_DENY_2",
+      "evtData": {
+        "scanner": "ML_VISION",
+        "source": "productScan",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647410,
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    },
+    {
+      "evtName": "PRODUCT_SCAN_CAMERA_ENABLE_DIALOG_SHOW_2",
+      "evtData": {
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647410,
+      "f": false,
+      "lsl": 9,
+      "dsync": false
+    }
+  ],
+  [
+    {
+      "g": "__9853645de68641888284150364c6eb73",
+      "type": "meta",
+      "af": {
+        "Build": "43",
+        "Version": "3.0.1-stage",
+        "OS Version": "11",
+        "SDK Version": 40000,
+        "Make": "samsung",
+        "Model": "SM-M215F",
+        "Carrier": "JIO 4G",
+        "useIP": false,
+        "OS": "Android",
+        "wdt": 2.68,
+        "hgt": 5.27,
+        "dpi": 420,
+        "lib": "Flutter",
+        "cc": "in"
+      },
+      "id": "TEST-79R-KR8-R95Z",
+      "tk": "TEST-b23-2ca",
+      "l_ts": 1620647397,
+      "f_ts": 1620205445,
+      "ddnd": false,
+      "rtl": [],
+      "rct": 0,
+      "ait": 0,
+      "frs": false,
+      "arp": {
+        "sv": 40000,
+        "dh": 645856151,
+        "wdt": 2,
+        "d_ts": 1620647392,
+        "hgt": 5,
+        "av": "3.0.1-stage",
+        "v": 1,
+        "e_ts": 0,
+        "j_n": "bm9jeQs=",
+        "i_n": "ZWhiewMC",
+        "r_ts": 1620647399,
+        "id": "79R-KR8-R95Z",
+        "k_n": "[ \"82326\" , \"52217\"]",
+        "j_s": "{ }"
+      },
+      "imp": 0,
+      "tlc": []
+    },
+    {
+      "evtName": "DEEP_LINK_HANDLE_LINK_2",
+      "evtData": {
+        "path": "/list",
+        "requestUrl": "eyJjYXJkQXBpQ3RhU3RyIjoiT0ZGRVJTX0NUQSIsImlkIjpudWxsfQ==",
+        "link": "/list?title=offers.list.title&source=dashboard&type=FLAT_LIST&requestUrl=eyJjYXJkQXBpQ3RhU3RyIjoiT0ZGRVJTX0NUQSIsImlkIjpudWxsfQ==",
+        "source": "dashboard",
+        "title": "offers.list.title",
+        "type": "FLAT_LIST",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647397,
+      "f": false,
+      "lsl": 9,
+      "wzrk_error": {
+        "c": 512,
+        "d": "For event \"DEEP_LINK_HANDLE_LINK_2\": Property value for property module wasn't a primitive ()"
+      },
+      "dsync": false
+    },
+    {
+      "evtName": "LIST_SCREEN_LAUNCHED_2",
+      "evtData": {
+        "type": "FLAT_LIST",
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647397,
+      "f": false,
+      "lsl": 9,
+      "wzrk_error": {
+        "c": 512,
+        "d": "For event \"LIST_SCREEN_LAUNCHED_2\": Property value for property module wasn't a primitive ()"
+      },
+      "dsync": false
+    },
+    {
+      "evtName": "LIST_SCREEN_FETCHING_MORE_DATA_2",
+      "evtData": {
+        "offset": 0,
+        "env": "Env.stage"
+      },
+      "s": 1620647392,
+      "pg": 1,
+      "type": "event",
+      "ep": 1620647397,
+      "f": false,
+      "lsl": 9,
+      "wzrk_error": {
+        "c": 512,
+        "d": "For event \"LIST_SCREEN_FETCHING_MORE_DATA_2\": Property value for property module wasn't a primitive ()"
+      },
+      "dsync": false
+    }
+  ]
+]

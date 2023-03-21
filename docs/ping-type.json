@@ -1,0 +1,60 @@
+//type -> meta, ping
+[
+  {
+    "g": "__354c1b7875f74facbc05f3cbe2667e3e",
+    "type": "meta",
+    "af": {
+      "Build": "45",
+      "Version": "4.0.0-stage",
+      "OS Version": "9",
+      "SDK Version": 40000,
+      "Make": "Amazon",
+      "Model": "AFTSS",
+      "Carrier": "",
+      "useIP": false,
+      "OS": "Android",
+      "wdt": 9.01,
+      "hgt": 5,
+      "dpi": 320
+    },
+    "id": "TEST-79R-KR8-R95Z",
+    "tk": "TEST-b23-2ca",
+    "l_ts": 1620655116,
+    "f_ts": 1620396876,
+    "ddnd": true,
+    "bk": 1,
+    "rtl": [],
+    "rct": 0,
+    "ait": 0,
+    "frs": true,
+    "arp": {
+      "sv": 40000,
+      "dh": 0,
+      "wdt": 9,
+      "d_ts": 0,
+      "hgt": 5,
+      "av": "4.0.0-stage",
+      "v": 1,
+      "e_ts": 0,
+      "j_n": "Zw==",
+      "i_n": "ZWlnewMF",
+      "r_ts": 1620655116,
+      "id": "79R-KR8-R95Z",
+      "j_s": "{ }"
+    },
+    "imp": 0,
+    "tlc": []
+  },
+  {
+    "mc": 12023552,
+    "nt": "WiFi",
+    "s": 1620655235,
+    "pg": 1,
+    "type": "ping",
+    "ep": 1620655235,
+    "f": false,
+    "lsl": -258219,
+    "dsync": false
+  }
+]
+

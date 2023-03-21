@@ -1,0 +1,102 @@
+[
+  {
+    "g": "__g1f818ab74a8448cebf28c94cc19c685f",
+    "type": "meta",
+    "af": {
+      "Build": "45",
+      "Version": "4.0.0-stage",
+      "OS Version": "10",
+      "SDK Version": 40000,
+      "Make": "samsung",
+      "Model": "SM-J600GF",
+      "Carrier": "",
+      "useIP": false,
+      "OS": "Android",
+      "wdt": 2.44,
+      "hgt": 4.94,
+      "dpi": 320,
+      "lib": "Flutter",
+      "cc": "in"
+    },
+    "id": "TEST-79R-KR8-R95Z",
+    "tk": "TEST-b23-2ca",
+    "l_ts": 1620658682,
+    "f_ts": 1620658054,
+    "ddnd": false,
+    "rtl": [],
+    "rct": 0,
+    "ait": 0,
+    "frs": false,
+    "arp": {
+      "sv": 40000,
+      "dh": -1934115733,
+      "wdt": 2,
+      "d_ts": 1620658052,
+      "hgt": 4,
+      "av": "4.0.0-stage",
+      "v": 1,
+      "e_ts": 0,
+      "j_n": "YG9iewE=",
+      "i_n": "YG9iewE=",
+      "r_ts": 1620658683,
+      "id": "79R-KR8-R95Z",
+      "j_s": "{ }"
+    },
+    "imp": 0,
+    "tlc": []
+  },
+  {
+    "evtName": "App Launched",
+    "evtData": {
+      "Build": "45",
+      "Version": "4.0.0-stage",
+      "OS Version": "10",
+      "SDK Version": 40000,
+      "Make": "samsung",
+      "Model": "SM-J600GF",
+      "Carrier": "",
+      "useIP": false,
+      "OS": "Android",
+      "wdt": 2.44,
+      "hgt": 4.94,
+      "dpi": 320,
+      "lib": "Flutter",
+      "cc": "in"
+    },
+    "s": 1620658701,
+    "pg": 1,
+    "type": "event",
+    "ep": 1620658701,
+    "f": false,
+    "lsl": 21,
+    "pai": "nurture.farm.stage",
+    "dsync": true
+  },
+  {
+    "evtName": "wzrk_fetch",
+    "evtData": {
+      "t": 1
+    },
+    "s": 1620658701,
+    "pg": 1,
+    "type": "event",
+    "ep": 1620658701,
+    "f": false,
+    "lsl": 21,
+    "dsync": false
+  },
+  {
+    "data": {
+      "action": "register",
+      "id": "cslRG07ASamTen_L8-RanJ:APA91bG0AAYISCYwsvss1akM_LlMDsfMLqG2PsmZOpgLMf_dwOPlbVoQnVBImSEu4HN5U5no7BJ370sfo9ZyB9asiPtSuPDUOnJW9_2yHK3AJdfuxaxkjIDBbjLnCCi79oabwvs-35Nr",
+      "type": "fcm"
+    },
+    "s": 1620658701,
+    "pg": 1,
+    "type": "data",
+    "ep": 1620658701,
+    "f": false,
+    "lsl": 21,
+    "dsync": false
+  }
+]
